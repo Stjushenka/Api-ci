@@ -10,9 +10,6 @@ install:
   # запускаем SUT (& означает, что в фоновом режиме - не блокируем терминал для запуска тестов)
   - java -jar ./artifacts/app-mbank.jar
 
-
-  build:
-
     runs-on: ubuntu-latest
 
     steps:
